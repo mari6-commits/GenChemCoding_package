@@ -1,0 +1,25 @@
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GenChemCoding_package"
+version = "0.0.5"
+authors = [
+  { name="Mariam Rainauli", email="mariam.rainauli6@gmail.com" }
+]
+description = "Package for GenChemCoding"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-only"
+license-files = ["LICEN[CS]E*"]
+
+[tool.setuptools]
+packages = ["GenChemCoding_package"]
+
+[project.urls]
+Homepage = "https://github.com/GenChemCoding/templates.git"
